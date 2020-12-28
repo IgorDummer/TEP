@@ -21,7 +21,7 @@ Matriz* inicializaMatriz(int nlinhas, int ncolunas) {
 
     if (mat->inicio == NULL) {
         free(mat);
-        printf("Não foi possivel inicializar o inicio da matriz.");
+        printf("Não foi possivel inicializar a matriz.");
     }
 
     return mat;
